@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>星心相印-周邊產品</title>
+<link href="page01.css" rel="stylesheet" type="text/css">
+  <link href="bootstarp.min.css" rel="stylesheet" type="text/css">
+<script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="page01.html"><img src="img/心.png" width="100"  alt="星心相印LOGO"/><img src="img/字.png" width="80" alt="星心相印"/></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto">
+       <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown">
+        活動資訊
+      </a>
+      <div class="dropdown-menu">
+		  <h6 class="dropdown-header">活動資訊</h6>
+        <a class="dropdown-item" href="page02-1.html">觀星資訊</a>
+        <a class="dropdown-item" href="page02-2.html">交通方式</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="page03.html">周邊產品</a>
+    </li>
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop2" data-toggle="dropdown">
+        園區簡介
+      </a>
+      <div class="dropdown-menu">
+		  <h6 class="dropdown-header">園區簡介</h6>
+        <a class="dropdown-item" href="page04-1.html">園區介紹</a>
+        <a class="dropdown-item" href="page04-2.html">生態環境</a>
+        <a class="dropdown-item" href="page04-3.html">發展歷史</a>
+      </div>
+    </li>
+	  <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="page05.html">設計團隊</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="page06.html">資料下載</a>
+    </li>
+  </ul>
+</nav>
+	
+<br>
+	
+	<div class="container-fluid">
+  <div class="row">
+	  <div class="col-xl-1">
+		   </div>
+    <div class="col-xl-2">
+		
+   </div>
+    <div class="col-xl-6">
+      <div class="container">
+		 <h3><img src="img/星.png" width="45" alt="星"/>&nbsp;周邊產品-星空飲</h3>
+		 <hr/>
+
+	 <img src="img/商品1.png" alt="星空飲" width="700">
+    <h4>星空飲</h4>
+      <p>30元</p>
+		 <a href="page03.html" class="btn btn-outline-secondary">上一頁</a>
+
+</div>
+
+    </div>
+	  <div class="col-xl-3">
+		   </div>
+  </div>
+</div>
+	<br/>
+	
+	<div class="jumbotron text-center" style="margin-bottom:0">
+		<div class="container">
+  <div class="row">
+    <div class="col-xl-12">
+      <!-- Content -->
+    </div>
+    <div class="col-xl-6">
+	<div class="float-xl-left">
+      <p>Copyright © 2021 All Rights Reserved.</p>
+    </div>
+	 </div>
+    <div class="col-xl-6">
+	<div class="float-xl-right">
+     <p>最近更新日期：<!-- #BeginDate format:IS1 -->2021-06-24<!-- #EndDate --></p>
+    </div>
+	  </div>
+  </div>
+</div>	
+</div>
+	
+	
+	<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+</body>
+</html>
+

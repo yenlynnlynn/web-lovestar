@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>星心相印-最新消息</title>
+<link href="page01.css" rel="stylesheet" type="text/css">
+  <link href="bootstarp.min.css" rel="stylesheet" type="text/css">
+<script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="page01.html"><img src="img/心.png" width="100"  alt="星心相印LOGO"/><img src="img/字.png" width="80" alt="星心相印"/></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto">
+       <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown">
+        活動資訊
+      </a>
+      <div class="dropdown-menu">
+		  <h6 class="dropdown-header">活動資訊</h6>
+        <a class="dropdown-item" href="page02-1.html">觀星資訊</a>
+        <a class="dropdown-item" href="page02-2.html">交通方式</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="page03.html">周邊產品</a>
+    </li>
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop2" data-toggle="dropdown">
+        園區簡介
+      </a>
+      <div class="dropdown-menu">
+		  <h6 class="dropdown-header">園區簡介</h6>
+        <a class="dropdown-item" href="page04-1.html">園區介紹</a>
+        <a class="dropdown-item" href="page04-2.html">生態環境</a>
+        <a class="dropdown-item" href="page04-3.html">發展歷史</a>
+      </div>
+    </li>
+	  <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="page05.html">設計團隊</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle" href="page06.html">資料下載</a>
+    </li>
+  </ul>
+</nav>
+	
+<br>
+	
+	<div class="container-fluid">
+  <div class="row">
+	  <div class="col-xl-1">
+		   </div>
+    <div class="col-xl-2">
+		
+   </div>
+    <div class="col-xl-6">
+      <div class="container">
+		 <h3><img src="img/星.png" width="45" alt="星"/>&nbsp;最新消息</h3>
+		 <hr/>
+		  <br/>
+		  <h5>疫情3級警戒再延長！陽明山國家公園持續暫停各項遊憩服務。</h5>
+		  <p class="text-right"><small>2021-06-07</small></p>
+		  <br/>
+		  <p>疫情3級警戒再延長，陽明山國家公園配合防疫工作，持續關閉或暫停各項遊憩服務設施至6月28日，包含所屬各遊客服務站、園區涼亭、休憩點、委外停車場、委外販賣部、流動廁所及生態保護區申請等各項服務，此外，並持續會同警察單位加強取締園區內違規停車、違法群聚或未戴口罩等行為。	</p>
+		  <p>陽管處呼籲大眾積極防疫！非常時刻，請大家勿出遊、勿群聚，也避免前往山區，降低疫情發生機率、減輕警消醫護負擔，共同團結抗疫。</p>
+	    <br/>
+		 <p><small>擷取自陽明山國家公園最新消息：
+			 <a href="https://www.ymsnp.gov.tw/main_ch/docDetail.aspx?uid=12&pid=11&docid=11834">https://www.ymsnp.gov.tw/main_ch/docDetail.aspx?uid=12&pid=11&docid=11834</a></small></p>
+	    <br/><br/>
+		 <div class="float-left">
+		   <a href="page01-2.html" class="btn btn-outline-secondary">上一個</a></div>
+		 <div class="float-right">
+		   <a href="page01-4.html" class="btn btn-outline-secondary">下一個</a></div>
+	
+	
+		   </div>
+    </div>
+	  <div class="col-xl-3">
+		   </div>
+  </div>
+</div>
+	<br/>
+	
+	<div class="jumbotron text-center" style="margin-bottom:0">
+		<div class="container">
+  <div class="row">
+    <div class="col-xl-12">
+      <!-- Content -->
+    </div>
+    <div class="col-xl-6">
+	<div class="float-xl-left">
+      <p>Copyright © 2021 All Rights Reserved.</p>
+    </div>
+	 </div>
+    <div class="col-xl-6">
+	<div class="float-xl-right">
+     <p>最近更新日期：<!-- #BeginDate format:IS1 -->2021-06-24<!-- #EndDate --></p>
+    </div>
+	  </div>
+  </div>
+</div>	
+</div>
+	
+	
+	<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+</body>
+</html>
+
